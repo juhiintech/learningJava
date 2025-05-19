@@ -452,5 +452,45 @@ public class Arrays {
         // our first custom class
         System.out.println("this is our custom class");
 
+                // int temp;
+        // int c = 30;
+        // int d = 40;
+        // temp = c;
+        // c = d;
+        // d = temp;
+        // System.out.println("c =" + c + "and d =" + d);
+
+        // int temp;
+        // int p = 100;
+        // int q = 200;
+        // temp = p;
+        // p = q;
+        // q = temp;
+        // System.out.println("p =" + p + "and q =" + q);
+
+        // java programming to swap two numbers
+        // Example:
+        // Before swapping
+        // first number = 17
+        // second number = 18
+
+        // after swapping
+        // first number = 18
+        // second number = 17
+
+        int a, b, temp;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter first number :");
+        a = sc.nextInt();
+        System.out.println("\nEnter second number : ");
+        b = sc.nextInt();
+
+        temp = a;
+        a = b;
+        b = temp;
+        System.out.println("\nfirst number =" + a);
+        System.out.println("second number =" + b);
+
+
     }
 }
