@@ -452,7 +452,7 @@ public class Arrays {
         // our first custom class
         System.out.println("this is our custom class");
 
-                // int temp;
+        // int temp;
         // int c = 30;
         // int d = 40;
         // temp = c;
@@ -490,7 +490,6 @@ public class Arrays {
         b = temp;
         System.out.println("\nfirst number =" + a);
         System.out.println("second number =" + b);
-
 
     }
 }
